@@ -1,0 +1,141 @@
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #dfdfdf; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #b4b4b4; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+body{
+
+    background-color: #CCE3FE;
+}
+.todo-container{
+background-color: #2C3659;
+color: white;
+padding: 20px;
+padding-top: 1px;
+width: fit-content;
+margin: 20px auto;
+border-radius: 10px;
+box-shadow: 1px 1px 10px 1px rgb(138, 138, 138);
+width: 320px;
+}
+.calender-ui{
+    width: 100% !important;
+}
+.todo-container h1{
+    text-align: center;
+}
+.input-ui{
+    background-color: transparent;
+    width: 96%;
+    padding: 6px 10px;
+    padding-left: 4px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid gray;
+    color: white;
+    font-size: 15px;
+    outline: none;
+}
+.input-ui::placeholder{
+    color: rgb(168, 168, 168);
+}
+.btn-container{
+    text-align: center;
+    margin-top: 10px;
+}
+.input-btn{
+    font-size: 17px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: #4FB7C6;
+    color: white;
+    font-weight: 600;
+    border-color: #cce3fe;
+}
+.todo-list{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    max-height: 350px;
+    overflow: auto;
+
+}
+.todo-name{
+    background-color: transparent;
+    width: 180px;
+    padding: 6px 10px;
+    padding-left: 4px;
+    margin-bottom: 10px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    outline: none;
+    text-transform: uppercase;
+}
+.complete-btn {
+    background: none;
+    outline: none;
+    border: none;
+    color: orange;
+    font-size: 20px;
+    float: right;
+
+}
+.delete-btn {
+    background: none;
+    outline: none;
+    border: none;
+    color: red;
+float: right;
+    font-size: 20px;
+}
+.edit-btn {
+    background: none;
+    outline: none;
+    color: #2ea9e2;
+    float: right;
+
+    border: none;
+    font-size: 20px;
+}
+.time-date{
+    margin: 0px;
+    font-size: 14px;
+}
+.time-date span{
+    float: right;
+    font-size: 14px;
+    color: gray;
+}
+.each-todo{
+    border-bottom: 1px solid rgb(216, 216, 216);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.input-ui .react-date-picker__wrapper {
+    border: none;
+    color: darkgray;
+}
+.input-ui .react-date-picker__inputGroup__input {
+    color: darkgray;
+}
+.todo-done{
+    color: rgb(31, 153, 31);
+    -webkit-text-decoration-line: line-through; /* Safari */
+    text-decoration-line: line-through; 
+}
